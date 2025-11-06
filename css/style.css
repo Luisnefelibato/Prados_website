@@ -1,31 +1,33 @@
 /* ===================================
    PRADOS - Custom CSS Styles
-   Paleta de colores:
-   - Primario: #B77A4B (marrón cobrizo)
-   - Secundario: #E7B7A0 (rosa)
-   - Complementario: #D9A47C (oro rosado)
-   - Fondo: #F7F3EE (marfil)
-   - Detalle natural: #9FAE9B (verde suave)
+   Paleta de colores "Tropical Vibrante":
+   - Primario: #FF6B9D (rosa vibrante/fucsia)
+   - Secundario: #FFA07A (coral salmón)
+   - Terciario: #FFD700 (dorado brillante)
+   - Acento: #00CED1 (turquesa)
+   - Natural: #7FD957 (verde lima)
+   - Fondo: #FFF5F7 (rosa muy claro)
    =================================== */
 
 /* ===== Variables CSS ===== */
 :root {
-    --primary-color: #B77A4B;
-    --secondary-color: #E7B7A0;
-    --tertiary-color: #D9A47C;
-    --bg-color: #F7F3EE;
-    --natural-color: #9FAE9B;
+    --primary-color: #FF6B9D;
+    --secondary-color: #FFA07A;
+    --tertiary-color: #FFD700;
+    --accent-color: #00CED1;
+    --natural-color: #7FD957;
+    --bg-color: #FFF5F7;
     --white: #FFFFFF;
     --dark: #2C2C2C;
     --gray: #6B6B6B;
-    --light-gray: #E5E5E5;
+    --light-gray: #F0F0F0;
     
     --font-heading: 'Noto Serif', serif;
     --font-body: 'Poppins', sans-serif;
     
     --transition: all 0.3s ease;
-    --shadow: 0 4px 12px rgba(183, 122, 75, 0.15);
-    --shadow-hover: 0 8px 24px rgba(183, 122, 75, 0.25);
+    --shadow: 0 4px 12px rgba(255, 107, 157, 0.2);
+    --shadow-hover: 0 8px 24px rgba(255, 107, 157, 0.35);
 }
 
 /* ===== Reset & Base Styles ===== */
@@ -229,17 +231,17 @@ ul {
 
 /* Hero Background Images */
 .hero-slide:nth-child(1) {
-    background-image: linear-gradient(rgba(183, 122, 75, 0.4), rgba(183, 122, 75, 0.4)), 
+    background-image: linear-gradient(rgba(255, 107, 157, 0.35), rgba(255, 160, 122, 0.35)), 
                       url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1600');
 }
 
 .hero-slide:nth-child(2) {
-    background-image: linear-gradient(rgba(183, 122, 75, 0.4), rgba(183, 122, 75, 0.4)), 
+    background-image: linear-gradient(rgba(0, 206, 209, 0.35), rgba(127, 217, 87, 0.35)), 
                       url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1600');
 }
 
 .hero-slide:nth-child(3) {
-    background-image: linear-gradient(rgba(183, 122, 75, 0.4), rgba(183, 122, 75, 0.4)), 
+    background-image: linear-gradient(rgba(255, 215, 0, 0.35), rgba(255, 160, 122, 0.35)), 
                       url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1600');
 }
 
@@ -249,7 +251,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(183, 122, 75, 0.3), rgba(231, 183, 160, 0.3));
+    background: linear-gradient(135deg, rgba(255, 107, 157, 0.2), rgba(255, 160, 122, 0.2));
 }
 
 .hero-content {
@@ -331,7 +333,7 @@ ul {
 }
 
 .btn-primary:hover {
-    background-color: #9F6638;
+    background-color: #E5568A;
     box-shadow: var(--shadow-hover);
     transform: translateY(-2px);
 }
@@ -343,7 +345,7 @@ ul {
 }
 
 .btn-secondary:hover {
-    background-color: #D9A08B;
+    background-color: #FF8C66;
     box-shadow: var(--shadow-hover);
     transform: translateY(-2px);
 }
@@ -447,7 +449,7 @@ ul {
 }
 
 .services-list i {
-    color: var(--secondary-color);
+    color: var(--natural-color);
     font-size: 1.2rem;
 }
 
@@ -566,7 +568,7 @@ ul {
 /* ===== Products Section ===== */
 .products-section {
     background-color: var(--white);
-    background-image: linear-gradient(135deg, rgba(231, 183, 160, 0.1) 0%, rgba(247, 243, 238, 0.1) 100%);
+    background-image: linear-gradient(135deg, rgba(255, 160, 122, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
 }
 
 .products-content {
@@ -938,6 +940,16 @@ ul {
     .whatsapp-float i {
         font-size: 26px;
     }
+}
+
+/* ===== Scroll to Top Button Styling ===== */
+.scroll-to-top {
+    box-shadow: 0 4px 12px rgba(255, 107, 157, 0.4) !important;
+}
+
+.scroll-to-top:hover {
+    background-color: var(--accent-color) !important;
+    box-shadow: 0 6px 20px rgba(0, 206, 209, 0.5) !important;
 }
 
 /* ===== WhatsApp Floating Button ===== */
