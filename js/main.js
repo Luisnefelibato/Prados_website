@@ -109,13 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // ===== Lazy Loading de imágenes =====
-    if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll('img[loading="lazy"]');
-        images.forEach(img => {
-            img.src = img.dataset.src;
-        });
-    } else {
-        // Fallback para navegadores antiguos
+    // El navegador moderno maneja el lazy loading automáticamente con el atributo loading="lazy"
+    // Solo necesitamos el fallback para navegadores antiguos
+    if (!('loading' in HTMLImageElement.prototype)) {
+        // Fallback para navegadores antiguos que no soportan loading="lazy"
         const script = document.createElement('script');
         script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
         document.body.appendChild(script);
