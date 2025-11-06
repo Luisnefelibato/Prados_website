@@ -339,13 +339,13 @@ ul {
 }
 
 .btn-secondary {
-    background-color: var(--secondary-color);
-    color: var(--dark);
+    background-color: var(--primary-color);
+    color: var(--white);
     box-shadow: var(--shadow);
 }
 
 .btn-secondary:hover {
-    background-color: #FF8C66;
+    background-color: #E5568A;
     box-shadow: var(--shadow-hover);
     transform: translateY(-2px);
 }
