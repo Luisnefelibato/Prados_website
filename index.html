@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PRADOS - Fresh Flowers and Party Supply. Arreglos florales, party supplies y renta de mesas y sillas en Florida.">
+    <meta name="keywords" content="flores, arreglos florales, party supplies, piñatas, renta de mesas, renta de sillas, eventos, Florida">
+    <meta name="author" content="Luisfercpde">
+    <title>PRADOS - Fresh Flowers and Party Supply | Florida</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <!-- Logo -->
+                    <a href="#home" class="logo">
+                        <img src="images/logo.png" alt="PRADOS Logo">
+                    </a>
+                    
+                    <!-- Hamburger Menu -->
+                    <button class="hamburger" id="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <!-- Navigation Menu -->
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-list">
+                            <li><a href="#home" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+                            <li><a href="#flowers" class="nav-link" data-i18n="nav.flowers">Arreglos Florales</a></li>
+                            <li><a href="#party" class="nav-link" data-i18n="nav.party">Party Supplies</a></li>
+                            <li><a href="#rental" class="nav-link" data-i18n="nav.rental">Renta de Mesas y Sillas</a></li>
+                            <li><a href="#community" class="nav-link" data-i18n="nav.community">Servicios Comunitarios</a></li>
+                            <li><a href="#products" class="nav-link" data-i18n="nav.products">Productos</a></li>
+                            <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Ubicación</a></li>
+                        </ul>
+                        
+                        <!-- Language Selector -->
+                        <div class="language-selector">
+                            <button class="lang-btn active" data-lang="es">🇪🇸 ES</button>
+                            <button class="lang-btn" data-lang="en">🇺🇸 EN</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <!-- Slide 1 - Flores -->
+            <div class="hero-slide active">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero.slide1.title">Arreglos Florales para Cada Ocasión</h1>
+                    <p class="hero-subtitle" data-i18n="hero.slide1.subtitle">Flores frescas y hermosos arreglos que hacen brillar tus momentos especiales</p>
+                    <a href="#flowers" class="btn btn-primary" data-i18n="hero.slide1.button">Ver Arreglos</a>
+                </div>
+            </div>
+            
+            <!-- Slide 2 - Party Supplies -->
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero.slide2.title">Todo para tu Fiesta Perfecta</h1>
+                    <p class="hero-subtitle" data-i18n="hero.slide2.subtitle">Party supplies, decoración, piñatas y más para celebraciones inolvidables</p>
+                    <a href="#party" class="btn btn-primary" data-i18n="hero.slide2.button">Ver Productos</a>
+                </div>
+            </div>
+            
+            <!-- Slide 3 - Renta -->
+            <div class="hero-slide">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title" data-i18n="hero.slide3.title">Renta de Mesas y Sillas</h1>
+                    <p class="hero-subtitle" data-i18n="hero.slide3.subtitle">Mobiliario de calidad para eventos, fiestas y celebraciones</p>
+                    <a href="#rental" class="btn btn-primary" data-i18n="hero.slide3.button">Solicitar Cotización</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <button class="slider-dot active" data-slide="0"></button>
+            <button class="slider-dot" data-slide="1"></button>
+            <button class="slider-dot" data-slide="2"></button>
+        </div>
+    </section>
+
+    <!-- Floral Arrangements Section -->
+    <section class="section flowers-section" id="flowers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="flowers.title">Arreglos Florales</h2>
+                <p class="section-subtitle" data-i18n="flowers.subtitle">Belleza natural para cada ocasión</p>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p class="content-description" data-i18n="flowers.description">
+                        Creamos hermosos arreglos florales personalizados para bodas, cumpleaños, aniversarios, graduaciones y cualquier ocasión especial. Flores frescas de la más alta calidad.
+                    </p>
+                    
+                    <div class="services-box">
+                        <h3 data-i18n="flowers.services.title">Nuestros servicios incluyen:</h3>
+                        <ul class="services-list">
+                            <li data-i18n="flowers.services.list.0"><i class="fas fa-check"></i> Arreglos florales personalizados</li>
+                            <li data-i18n="flowers.services.list.1"><i class="fas fa-check"></i> Ramos de novia y decoración de bodas</li>
+                            <li data-i18n="flowers.services.list.2"><i class="fas fa-check"></i> Centros de mesa elegantes</li>
+                            <li data-i18n="flowers.services.list.3"><i class="fas fa-check"></i> Flores para eventos corporativos</li>
+                            <li data-i18n="flowers.services.list.4"><i class="fas fa-check"></i> Arreglos románticos</li>
+                            <li data-i18n="flowers.services.list.5"><i class="fas fa-check"></i> Flores para graduaciones</li>
+                            <li data-i18n="flowers.services.list.6"><i class="fas fa-check"></i> Ramos para aniversarios</li>
+                            <li data-i18n="flowers.services.list.7"><i class="fas fa-check"></i> Decoración floral completa</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-secondary" data-i18n="flowers.button">Ordenar Ahora</a>
+                </div>
+                
+                <div class="gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=400&fit=crop&q=80" alt="Ramos de Boda" loading="lazy">
+                            <p>Ramos de Boda</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=400&h=400&fit=crop&q=80" alt="Arreglos Románticos" loading="lazy">
+                            <p>Arreglos Románticos</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=400&h=400&fit=crop&q=80" alt="Centros de Mesa" loading="lazy">
+                            <p>Centros de Mesa</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400&h=400&fit=crop&q=80" alt="Ramos de Rosas" loading="lazy">
+                            <p>Ramos de Rosas</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=400&h=400&fit=crop&q=80" alt="Arreglos Elegantes" loading="lazy">
+                            <p>Arreglos Elegantes</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1530534555036-38dcd16f0b0e?w=400&h=400&fit=crop&q=80" alt="Ocasiones Especiales" loading="lazy">
+                            <p>Ocasiones Especiales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Party Supplies Section -->
+    <section class="section party-section" id="party">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="party.title">Party Supplies</h2>
+                <p class="section-subtitle" data-i18n="party.subtitle">Todo lo que necesitas para tu celebración</p>
+            </div>
+            
+            <div class="content-wrapper reverse">
+                <div class="gallery">
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop&q=80" alt="Piñatas" loading="lazy">
+                            <p>Piñatas</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=400&fit=crop&q=80" alt="Arreglos con Globos" loading="lazy">
+                            <p>Arreglos con Globos</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=400&h=400&fit=crop&q=80" alt="Decoración Temática" loading="lazy">
+                            <p>Decoración Temática</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1478145787956-f6f12c59624d?w=400&h=400&fit=crop&q=80" alt="Vajilla Elegante" loading="lazy">
+                            <p>Vajilla Desechable</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=400&fit=crop&q=80" alt="Accesorios de Fiesta" loading="lazy">
+                            <p>Accesorios de Fiesta</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=400&fit=crop&q=80" alt="Juegos de Fiesta" loading="lazy">
+                            <p>Juegos de Fiesta</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-text">
+                    <p class="content-description" data-i18n="party.description">
+                        Distribuidor oficial de party supplies. Encuentra todo lo necesario para hacer de tu fiesta algo especial: piñatas, dulces, decoración, globos y mucho más.
+                    </p>
+                    
+                    <div class="services-box">
+                        <h3 data-i18n="party.services.title">Productos disponibles:</h3>
+                        <ul class="services-list">
+                            <li data-i18n="party.services.list.0"><i class="fas fa-check"></i> Piñatas de todos los personajes</li>
+                            <li data-i18n="party.services.list.1"><i class="fas fa-check"></i> Arreglos con globos</li>
+                            <li data-i18n="party.services.list.2"><i class="fas fa-check"></i> Decoración temática</li>
+                            <li data-i18n="party.services.list.3"><i class="fas fa-check"></i> Globos y helio</li>
+                            <li data-i18n="party.services.list.4"><i class="fas fa-check"></i> Vajilla desechable</li>
+                            <li data-i18n="party.services.list.5"><i class="fas fa-check"></i> Manteles y servilletas</li>
+                            <li data-i18n="party.services.list.6"><i class="fas fa-check"></i> Accesorios de fiesta</li>
+                            <li data-i18n="party.services.list.7"><i class="fas fa-check"></i> Juegos y entretenimiento</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-secondary" data-i18n="party.button">Ver Catálogo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table & Chair Rental Section -->
+    <section class="section rental-section" id="rental">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="rental.title">Renta de Mesas y Sillas</h2>
+                <p class="section-subtitle" data-i18n="rental.subtitle">Mobiliario para tus eventos</p>
+            </div>
+            
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <p class="content-description" data-i18n="rental.description">
+                        Ofrecemos servicio de renta de mesas y sillas de alta calidad para todo tipo de eventos. Contamos con diferentes estilos y capacidades para adaptarnos a tus necesidades.
+                    </p>
+                    
+                    <div class="services-box">
+                        <h3 data-i18n="rental.features.title">Nuestro servicio incluye:</h3>
+                        <ul class="services-list">
+                            <li data-i18n="rental.features.list.0"><i class="fas fa-check"></i> Mesas rectangulares y redondas</li>
+                            <li data-i18n="rental.features.list.1"><i class="fas fa-check"></i> Sillas plegables y de banquete</li>
+                            <li data-i18n="rental.features.list.2"><i class="fas fa-check"></i> Carpas para eventos al aire libre</li>
+                            <li data-i18n="rental.features.list.3"><i class="fas fa-check"></i> Mantelería elegante</li>
+                            <li data-i18n="rental.features.list.4"><i class="fas fa-check"></i> Entrega y recolección</li>
+                            <li data-i18n="rental.features.list.5"><i class="fas fa-check"></i> Montaje profesional</li>
+                            <li data-i18n="rental.features.list.6"><i class="fas fa-check"></i> Limpieza incluida</li>
+                            <li data-i18n="rental.features.list.7"><i class="fas fa-check"></i> Precios competitivos</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-secondary" data-i18n="rental.button">Solicitar Cotización</a>
+                </div>
+                
+                <div class="gallery">
+                    <div class="gallery-grid rental-grid">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400&h=400&fit=crop&q=80" alt="Mesas para Eventos" loading="lazy">
+                            <p>Mesas</p>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=400&fit=crop&q=80" alt="Sillas para Eventos" loading="lazy">
+                            <p>Sillas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Services Section -->
+    <section class="section community-section" id="community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="community.title">Servicios Comunitarios</h2>
+                <p class="section-subtitle" data-i18n="community.subtitle">Conectamos corazones y hogares</p>
+            </div>
+            
+            <div class="community-grid">
+                <!-- Money Transfers -->
+                <div class="community-card">
+                    <div class="card-icon">
+                        <i class="fas fa-money-bill-transfer"></i>
+                    </div>
+                    <h3 data-i18n="community.money.title">Envíos de Dinero</h3>
+                    <p data-i18n="community.money.description">
+                        Transferencias rápidas y seguras a tus seres queridos. Confianza garantizada con las mejores tarifas del mercado.
+                    </p>
+                    <a href="#contact" class="btn btn-outline" data-i18n="community.button">Más información</a>
+                </div>
+                
+                <!-- Package Shipping -->
+                <div class="community-card">
+                    <div class="card-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 data-i18n="community.shipping.title">Paquetería</h3>
+                    <p data-i18n="community.shipping.description">
+                        Enviamos tus paquetes de forma rápida y segura. Servicio confiable con seguimiento en tiempo real.
+                    </p>
+                    <a href="#contact" class="btn btn-outline" data-i18n="community.button">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section (iEvolution) -->
+    <section class="section products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="products.title">Productos iEvolution</h2>
+                <p class="section-subtitle" data-i18n="products.subtitle">Distribuidores oficiales</p>
+            </div>
+            
+            <div class="products-content">
+                <p class="products-description" data-i18n="products.description">
+                    Somos distribuidores oficiales de productos de belleza, bienestar y cuidado personal. Compra directamente con nuestra referencia y recibe productos de calidad premium.
+                </p>
+                
+                <div class="products-cta">
+                    <a href="https://home.ievolutionpro.com/product/registration/?ref=Rosalinda0423" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span data-i18n="products.button">Comprar Ahora</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <p class="products-note" data-i18n="products.cta">Visita nuestra tienda en línea</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Location Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="contact.title">Visítanos</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">Estamos en Florida</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <!-- Google Map -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583726.0788397193!2d-84.32040539999999!3d28.3989867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C%20USA!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3 data-i18n="contact.info.title">Información de contacto</h3>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-i18n="contact.info.address">Dirección</h4>
+                            <p data-i18n="contact.info.addressText">Florida, Estados Unidos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-i18n="contact.info.phone">Teléfono</h4>
+                            <p><a href="tel:+1234567890" data-i18n="contact.info.phoneNumber">+1 (XXX) XXX-XXXX</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-i18n="contact.info.email">Correo</h4>
+                            <p><a href="mailto:info@prados.com" data-i18n="contact.info.emailAddress">info@prados.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4 data-i18n="contact.info.hours">Horario de atención</h4>
+                            <p data-i18n="contact.info.hoursText">Lunes - Sábado: 9:00 AM - 7:00 PM<br>Domingo: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="PRADOS Logo" class="footer-logo">
+                    <p class="footer-tagline" data-i18n="footer.tagline">Fresh Flowers and Party Supply</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h4 data-i18n="footer.social">Síguenos en redes sociales</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#" data-i18n="footer.privacy">Política de privacidad</a>
+                    <a href="#" data-i18n="footer.terms">Términos y condiciones</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer.credits">© Luisfercpde 2025. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=1234567890&text=Hola,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/language.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

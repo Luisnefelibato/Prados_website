@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "flowers": "Floral Arrangements",
+    "party": "Party Supplies",
+    "rental": "Table & Chair Rental",
+    "community": "Community Services",
+    "products": "Products",
+    "contact": "Location"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Floral Arrangements for Every Occasion",
+      "subtitle": "Fresh flowers and beautiful arrangements that make your special moments shine",
+      "button": "View Arrangements"
+    },
+    "slide2": {
+      "title": "Everything for Your Perfect Party",
+      "subtitle": "Piñatas, balloon arrangements and accessories for unforgettable celebrations",
+      "button": "View Products"
+    },
+    "slide3": {
+      "title": "Table and Chair Rental",
+      "subtitle": "Quality furniture for events, parties and celebrations",
+      "button": "Request Quote"
+    }
+  },
+  "flowers": {
+    "title": "Floral Arrangements",
+    "subtitle": "Natural beauty for every occasion",
+    "description": "We create beautiful custom floral arrangements for weddings, birthdays, anniversaries, graduations and any special occasion. Fresh flowers of the highest quality.",
+    "services": {
+      "title": "Our services include:",
+      "list": [
+        "Custom floral arrangements",
+        "Bridal bouquets and wedding decorations",
+        "Elegant centerpieces",
+        "Corporate event flowers",
+        "Romantic arrangements",
+        "Graduation flowers",
+        "Anniversary bouquets",
+        "Complete floral decoration"
+      ]
+    },
+    "button": "Order Now"
+  },
+  "party": {
+    "title": "Party Supplies",
+    "subtitle": "Everything you need for your celebration",
+    "description": "Official party supplies distributor. Find everything you need to make your party special: themed decorations, elegant tableware, games and much more.",
+    "services": {
+      "title": "Available products:",
+      "list": [
+        "Piñatas of all characters",
+        "Balloon arrangements",
+        "Custom themed decorations",
+        "Elegant disposable tableware",
+        "Table accessories",
+        "Tablecloths and centerpieces",
+        "Party games",
+        "Event entertainment"
+      ]
+    },
+    "button": "View Catalog"
+  },
+  "rental": {
+    "title": "Table & Chair Rental",
+    "subtitle": "Furniture for your events",
+    "description": "We offer high-quality table and chair rental service for all types of events. We have different styles and capacities to suit your needs.",
+    "features": {
+      "title": "Our service includes:",
+      "list": [
+        "Rectangular and round tables",
+        "Folding and banquet chairs",
+        "Tents for outdoor events",
+        "Elegant linens",
+        "Delivery and pickup",
+        "Professional setup",
+        "Cleaning included",
+        "Competitive prices"
+      ]
+    },
+    "button": "Request Quote"
+  },
+  "community": {
+    "title": "Community Services",
+    "subtitle": "Connecting hearts and homes",
+    "money": {
+      "title": "Money Transfers",
+      "description": "Fast and secure transfers to your loved ones. Guaranteed trust with the best rates on the market."
+    },
+    "shipping": {
+      "title": "Package Shipping",
+      "description": "We ship your packages quickly and safely. Reliable service with real-time tracking."
+    },
+    "button": "Learn more"
+  },
+  "products": {
+    "title": "iEvolution Products",
+    "subtitle": "Official distributors",
+    "description": "We are official distributors of beauty, wellness and personal care products. Buy directly with our reference and receive premium quality products.",
+    "button": "Shop Now",
+    "cta": "Visit our online store"
+  },
+  "contact": {
+    "title": "Visit Us",
+    "subtitle": "We're in Florida",
+    "info": {
+      "title": "Contact information",
+      "address": "Address",
+      "addressText": "Florida, United States",
+      "phone": "Phone",
+      "phoneNumber": "+1 (XXX) XXX-XXXX",
+      "email": "Email",
+      "emailAddress": "info@prados.com",
+      "hours": "Business hours",
+      "hoursText": "Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Fresh Flowers and Party Supply",
+    "social": "Follow us on social media",
+    "privacy": "Privacy policy",
+    "terms": "Terms and conditions",
+    "credits": "© Luisfercpde 2025. All rights reserved."
+  }
+}

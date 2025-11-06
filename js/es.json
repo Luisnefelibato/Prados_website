@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "flowers": "Arreglos Florales",
+    "party": "Artículos para Fiestas",
+    "rental": "Renta de Mesas y Sillas",
+    "community": "Servicios Comunitarios",
+    "products": "Productos",
+    "contact": "Ubicación"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Arreglos Florales para Cada Ocasión",
+      "subtitle": "Flores frescas y hermosos arreglos que hacen brillar tus momentos especiales",
+      "button": "Ver Arreglos"
+    },
+    "slide2": {
+      "title": "Todo para tu Fiesta Perfecta",
+      "subtitle": "Piñatas, decoración con globos y accesorios para celebraciones inolvidables",
+      "button": "Ver Productos"
+    },
+    "slide3": {
+      "title": "Renta de Mesas y Sillas",
+      "subtitle": "Mobiliario de calidad para eventos, fiestas y celebraciones",
+      "button": "Solicitar Cotización"
+    }
+  },
+  "flowers": {
+    "title": "Arreglos Florales",
+    "subtitle": "Belleza natural para cada ocasión",
+    "description": "Creamos hermosos arreglos florales personalizados para bodas, cumpleaños, aniversarios, graduaciones y cualquier ocasión especial. Flores frescas de la más alta calidad.",
+    "services": {
+      "title": "Nuestros servicios incluyen:",
+      "list": [
+        "Arreglos florales personalizados",
+        "Ramos de novia y decoración de bodas",
+        "Centros de mesa elegantes",
+        "Flores para eventos corporativos",
+        "Arreglos románticos",
+        "Flores para graduaciones",
+        "Ramos para aniversarios",
+        "Decoración floral completa"
+      ]
+    },
+    "button": "Ordenar Ahora"
+  },
+  "party": {
+    "title": "Artículos para Fiestas",
+    "subtitle": "Todo lo que necesitas para tu celebración",
+    "description": "Distribuidor oficial de artículos para fiestas. Encuentra todo lo necesario para hacer de tu fiesta algo especial: decoración temática, vajilla elegante, juegos y mucho más.",
+    "services": {
+      "title": "Productos disponibles:",
+      "list": [
+        "Piñatas de todos los personajes",
+        "Arreglos con globos",
+        "Decoración temática personalizada",
+        "Vajilla desechable elegante",
+        "Accesorios para mesas",
+        "Manteles y centros de mesa",
+        "Juegos de fiesta",
+        "Entretenimiento para eventos"
+      ]
+    },
+    "button": "Ver Catálogo"
+  },
+  "rental": {
+    "title": "Renta de Mesas y Sillas",
+    "subtitle": "Mobiliario para tus eventos",
+    "description": "Ofrecemos servicio de renta de mesas y sillas de alta calidad para todo tipo de eventos. Contamos con diferentes estilos y capacidades para adaptarnos a tus necesidades.",
+    "features": {
+      "title": "Nuestro servicio incluye:",
+      "list": [
+        "Mesas rectangulares y redondas",
+        "Sillas plegables y de banquete",
+        "Carpas para eventos al aire libre",
+        "Mantelería elegante",
+        "Entrega y recolección",
+        "Montaje profesional",
+        "Limpieza incluida",
+        "Precios competitivos"
+      ]
+    },
+    "button": "Solicitar Cotización"
+  },
+  "community": {
+    "title": "Servicios Comunitarios",
+    "subtitle": "Conectamos corazones y hogares",
+    "money": {
+      "title": "Envíos de Dinero",
+      "description": "Transferencias rápidas y seguras a tus seres queridos. Confianza garantizada con las mejores tarifas del mercado."
+    },
+    "shipping": {
+      "title": "Paquetería",
+      "description": "Enviamos tus paquetes de forma rápida y segura. Servicio confiable con seguimiento en tiempo real."
+    },
+    "button": "Más información"
+  },
+  "products": {
+    "title": "Productos iEvolution",
+    "subtitle": "Distribuidores oficiales",
+    "description": "Somos distribuidores oficiales de productos de belleza, bienestar y cuidado personal. Compra directamente con nuestra referencia y recibe productos de calidad premium.",
+    "button": "Comprar Ahora",
+    "cta": "Visita nuestra tienda en línea"
+  },
+  "contact": {
+    "title": "Visítanos",
+    "subtitle": "Estamos en Florida",
+    "info": {
+      "title": "Información de contacto",
+      "address": "Dirección",
+      "addressText": "Florida, Estados Unidos",
+      "phone": "Teléfono",
+      "phoneNumber": "+1 (XXX) XXX-XXXX",
+      "email": "Correo",
+      "emailAddress": "info@prados.com",
+      "hours": "Horario de atención",
+      "hoursText": "Lunes - Sábado: 9:00 AM - 7:00 PM<br>Domingo: 10:00 AM - 5:00 PM"
+    }
+  },
+  "footer": {
+    "tagline": "Fresh Flowers and Party Supply",
+    "social": "Síguenos en redes sociales",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "credits": "© Luisfercpde 2025. Todos los derechos reservados."
+  }
+}
