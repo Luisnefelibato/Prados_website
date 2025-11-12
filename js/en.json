@@ -25,9 +25,10 @@
       "button": "Request Quote"
     },
     "stats": {
-    "clients": "Happy Clients",
-    "arrangements": "Arrangements Delivered",
-    "experience": "Years of Experience"
+      "clients": "Happy Clients",
+      "arrangements": "Arrangements Delivered",
+      "experience": "Years of Experience"
+    }
   },
   "flowers": {
     "title": "Floral Arrangements",
