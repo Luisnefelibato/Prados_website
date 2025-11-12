@@ -81,22 +81,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-    // Form removed - contact via location page
-    
-    // ===== Scroll Animations =====
-    const observerOptions = {
+    // ===== Scroll Animations (originales) =====
+    const scrollObserverOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -100px 0px'
     };
     
-    const observer = new IntersectionObserver((entries) => {
+    const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
             }
         });
-    }, observerOptions);
+    }, scrollObserverOptions);
     
     // Observar elementos para animaciones
     const animatedElements = document.querySelectorAll('.gallery-item, .community-card, .wellness-card, .info-item');
@@ -105,25 +103,17 @@ document.addEventListener('DOMContentLoaded', () => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
         el.style.transition = `all 0.6s ease ${index * 0.1}s`;
-        observer.observe(el);
+        scrollObserver.observe(el);
     });
     
     // ===== Lazy Loading de imágenes =====
-    if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll('img[loading="lazy"]');
-        images.forEach(img => {
-            img.src = img.dataset.src;
-        });
-    } else {
-        // Fallback para navegadores antiguos
+    if (!('loading' in HTMLImageElement.prototype)) {
         const script = document.createElement('script');
         script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
         document.body.appendChild(script);
     }
     
-    // Form validation removed
-    
-    // ===== Scroll to Top Button (opcional) =====
+    // ===== Scroll to Top Button =====
     const scrollToTopBtn = document.createElement('button');
     scrollToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
     scrollToTopBtn.className = 'scroll-to-top';
@@ -172,5 +162,98 @@ document.addEventListener('DOMContentLoaded', () => {
         document.head.appendChild(style);
     }
     
+    // ===================================
+    // EFECTOS DINÁMICOS NUEVOS
+    // ===================================
+    
+    // ===== Navbar Scroll Effect =====
+    window.addEventListener('scroll', () => {
+        const header = document.getElementById('header');
+        if (window.scrollY > 100) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+    
+    // ===== Scroll Animations para nuevos elementos =====
+    const animationObserverOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const animationObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, animationObserverOptions);
+    
+    // Observar todos los elementos con clases de animación
+    document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .scale-in').forEach(el => {
+        animationObserver.observe(el);
+    });
+    
+    // ===== Contador Animado =====
+    function animateCounter(element) {
+        const target = parseInt(element.getAttribute('data-target'));
+        const duration = 2000;
+        const increment = target / (duration / 16);
+        let current = 0;
+        
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                element.textContent = target + '+';
+                clearInterval(timer);
+            } else {
+                element.textContent = Math.floor(current);
+            }
+        }, 16);
+    }
+    
+    // Observar cuando los contadores sean visibles
+    const statsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const counters = entry.target.querySelectorAll('.stat-number');
+                counters.forEach(counter => {
+                    if (counter.textContent === '0') {
+                        animateCounter(counter);
+                    }
+                });
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    const statsSection = document.querySelector('.stats-section');
+    if (statsSection) {
+        statsObserver.observe(statsSection);
+    }
+    
+    // ===== Parallax Effect en Hero =====
+    let parallaxTicking = false;
+    
+    window.addEventListener('scroll', () => {
+        if (!parallaxTicking) {
+            window.requestAnimationFrame(() => {
+                const scrolled = window.pageYOffset;
+                const heroSlides = document.querySelectorAll('.hero-slide');
+                
+                heroSlides.forEach(slide => {
+                    if (slide.classList.contains('active') && window.innerWidth > 768) {
+                        slide.style.backgroundPositionY = scrolled * 0.5 + 'px';
+                    }
+                });
+                
+                parallaxTicking = false;
+            });
+            
+            parallaxTicking = true;
+        }
+    });
+    
     console.log('🌸 PRADOS website loaded successfully!');
-});
+    
+}); // ← AQUÍ CIERRA EL DOMContentLoaded (esto faltaba)

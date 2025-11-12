@@ -23,7 +23,12 @@
       "title": "Renta de Mesas y Sillas",
       "subtitle": "Mobiliario de calidad para eventos, fiestas y celebraciones",
       "button": "Solicitar Cotización"
-    }
+    },
+    "stats": {
+    "clients": "Clientes Felices",
+    "arrangements": "Arreglos Entregados",
+    "experience": "Años de Experiencia"
+  }
   },
   "flowers": {
     "title": "Arreglos Florales",
@@ -124,4 +129,5 @@
     "terms": "Términos y condiciones",
     "credits": "© Luisfercpde 2025. Todos los derechos reservados."
   }
+
 }

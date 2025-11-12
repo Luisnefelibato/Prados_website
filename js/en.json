@@ -23,7 +23,11 @@
       "title": "Table and Chair Rental",
       "subtitle": "Quality furniture for events, parties and celebrations",
       "button": "Request Quote"
-    }
+    },
+    "stats": {
+    "clients": "Happy Clients",
+    "arrangements": "Arrangements Delivered",
+    "experience": "Years of Experience"
   },
   "flowers": {
     "title": "Floral Arrangements",
@@ -124,4 +128,5 @@
     "terms": "Terms and conditions",
     "credits": "© Luisfercpde 2025. All rights reserved."
   }
+}
 }
