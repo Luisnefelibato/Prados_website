@@ -52,7 +52,7 @@
   "party": {
     "title": "Party Supplies",
     "subtitle": "Everything you need for your celebration",
-    "description": "Official party supplies distributor. Find everything you need to make your party special: themed decorations, elegant tableware, games and much more.",
+    "description": "Official party supplies distributor. Find everything you need to make your party special: themed decorations, elegant tableware and much more.",
     "services": {
       "title": "Available products:",
       "list": [
@@ -62,7 +62,6 @@
         "Elegant disposable tableware",
         "Table accessories",
         "Tablecloths and centerpieces",
-        "Party games",
         "Event entertainment"
       ]
     },
@@ -107,19 +106,26 @@
     "button": "Shop Now",
     "cta": "Visit our online store"
   },
+  "riman": {
+    "title": "Riman Products",
+    "subtitle": "Official distributors",
+    "description": "We are official distributors of Riman products. Buy directly with our reference and receive premium quality products.",
+    "button": "Shop Now",
+    "cta": "Visit our online store"
+  },
   "contact": {
     "title": "Visit Us",
-    "subtitle": "We're in Florida",
+    "subtitle": "We're in California",
     "info": {
       "title": "Contact information",
       "address": "Address",
-      "addressText": "Florida, United States",
+      "addressText": "744 E Hyde Park Blvd, Inglewood, CA 90302",
       "phone": "Phone",
-      "phoneNumber": "+1 (XXX) XXX-XXXX",
+      "phoneNumber": "+1 (323) 802-8920",
       "email": "Email",
       "emailAddress": "info@prados.com",
       "hours": "Business hours",
-      "hoursText": "Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM"
+      "hoursText": "Monday - Thursday: 10:00 AM - 6:30 PM Friday - Saturday: 10:00 AM - 6:30 PM Sunday: 10:00 AM - 2:00 PM"
     }
   },
   "footer": {
@@ -129,5 +135,4 @@
     "terms": "Terms and conditions",
     "credits": "© Luisfercpde 2025. All rights reserved."
   }
-}
 }

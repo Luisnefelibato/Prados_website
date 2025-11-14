@@ -75,14 +75,14 @@ function protectLogos() {
     
     if (logoImg) {
         logoImg.removeAttribute('data-i18n');
-        logoImg.style.height = '70px';
+        logoImg.style.height = '90px';
         logoImg.style.width = 'auto';
         logoImg.style.objectFit = 'contain';
         logoImg.alt = 'PRADOS Logo';
         
-        // Verificar que la imagen sea correcta
-        if (!logoImg.src.includes('logo.png')) {
-            logoImg.src = 'images/logo.png';
+        // Verificar que la imagen sea correcta (nuevo logo)
+        if (!logoImg.src.includes('WhatsApp_Image_2025-11-14_at_4.30.01_PM-removebg-preview.png')) {
+            logoImg.src = 'images/WhatsApp_Image_2025-11-14_at_4.30.01_PM-removebg-preview.png';
         }
     }
 
@@ -95,8 +95,9 @@ function protectLogos() {
         footerLogo.style.maxWidth = '200px';
         footerLogo.alt = 'PRADOS Logo';
         
-        if (!footerLogo.src.includes('logo.png')) {
-            footerLogo.src = 'images/logo.png';
+        // Verificar que la imagen sea correcta (nuevo logo)
+        if (!footerLogo.src.includes('WhatsApp_Image_2025-11-14_at_4.30.01_PM-removebg-preview.png')) {
+            footerLogo.src = 'images/WhatsApp_Image_2025-11-14_at_4.30.01_PM-removebg-preview.png';
         }
     }
 }

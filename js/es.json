@@ -52,7 +52,7 @@
   "party": {
     "title": "Artículos para Fiestas",
     "subtitle": "Todo lo que necesitas para tu celebración",
-    "description": "Distribuidor oficial de artículos para fiestas. Encuentra todo lo necesario para hacer de tu fiesta algo especial: decoración temática, vajilla elegante, juegos y mucho más.",
+    "description": "Prados es Distribuidor oficial de artículos para fiestas. Encuentra todo lo necesario para hacer de tu fiesta algo especial: decoración temática, vajilla elegante y mucho más.",
     "services": {
       "title": "Productos disponibles:",
       "list": [
@@ -62,7 +62,6 @@
         "Vajilla desechable elegante",
         "Accesorios para mesas",
         "Manteles y centros de mesa",
-        "Juegos de fiesta",
         "Entretenimiento para eventos"
       ]
     },
@@ -107,19 +106,26 @@
     "button": "Comprar Ahora",
     "cta": "Visita nuestra tienda en línea"
   },
-  "contact": {
-    "title": "Visítanos",
-    "subtitle": "Estamos en Florida",
-    "info": {
-      "title": "Información de contacto",
-      "address": "Dirección",
-      "addressText": "Florida, Estados Unidos",
+  "riman": {
+    "title": "Productos Riman",
+    "subtitle": "Distribuidores oficiales",
+    "description": "Somos distribuidores oficiales de productos Riman. Compra directamente con nuestra referencia y recibe productos de calidad premium.",
+    "button": "Comprar Ahora",
+    "cta": "Visita nuestra tienda en línea"
+  },
+    "contact": {
+      "title": "Visítanos",
+      "subtitle": "Estamos en California",
+      "info": {
+        "title": "Información de contacto",
+        "address": "Dirección",
+        "addressText": "744 E Hyde Park Blvd, Inglewood, CA 90302",
       "phone": "Teléfono",
-      "phoneNumber": "+1 (XXX) XXX-XXXX",
+      "phoneNumber": "+1 (323) 802-8920",
       "email": "Correo",
       "emailAddress": "info@prados.com",
       "hours": "Horario de atención",
-      "hoursText": "Lunes - Sábado: 9:00 AM - 7:00 PM<br>Domingo: 10:00 AM - 5:00 PM"
+      "hoursText": "Lunes - Jueves: 10:00 AM - 6:30 PM Viernes - Sábado: 10:00 AM - 6:30 PM Domingo: 10:00 AM - 2:00 PM"
     }
   },
   "footer": {
