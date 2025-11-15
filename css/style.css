@@ -263,7 +263,7 @@ ul {
 .hamburger span {
     width: 30px;
     height: 3px;
-    background-color: var(--primary-color);
+    background-color: #0066CC;
     border-radius: 3px;
     transition: var(--transition);
 }
