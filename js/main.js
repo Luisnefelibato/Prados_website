@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     window.scrollTo({
                         top: targetPosition,
-                        behavior: 'smooth'
+                        behavior: 'auto' // Cambiado a 'auto' para eliminar scroll suave
                     });
                 }
             }
@@ -81,7 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-    // ===== Scroll Animations (originales) =====
+    // ===== Scroll Animations (DESACTIVADAS - todo estático) =====
+    // Desactivado para hacer la página completamente estática
+    /*
     const scrollObserverOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -100px 0px'
@@ -95,15 +97,17 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, scrollObserverOptions);
+    */
     
-    // Observar elementos para animaciones
+    // Observar elementos para animaciones - DESACTIVADO
     const animatedElements = document.querySelectorAll('.gallery-item, .community-card, .wellness-card, .info-item');
     
+    // Desactivado - elementos siempre visibles y estáticos
     animatedElements.forEach((el, index) => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(30px)';
-        el.style.transition = `all 0.6s ease ${index * 0.1}s`;
-        scrollObserver.observe(el);
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+        el.style.transition = 'none';
+        // scrollObserver.observe(el); // DESACTIVADO
     });
     
     // ===== Lazy Loading de imágenes =====
@@ -150,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollToTopBtn.addEventListener('click', () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
+            behavior: 'auto' // Cambiado a 'auto' para eliminar scroll suave
         });
     });
     
@@ -176,7 +180,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-    // ===== Scroll Animations para nuevos elementos =====
+    // ===== Scroll Animations para nuevos elementos - DESACTIVADO =====
+    // Desactivado para hacer la página completamente estática
+    /*
     const animationObserverOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -189,10 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }, animationObserverOptions);
+    */
     
-    // Observar todos los elementos con clases de animación
+    // Elementos siempre visibles y estáticos
     document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right, .scale-in').forEach(el => {
-        animationObserver.observe(el);
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+        el.classList.add('visible');
+        // animationObserver.observe(el); // DESACTIVADO
     });
     
     // ===== Contador Animado =====

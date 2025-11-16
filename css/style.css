@@ -25,7 +25,7 @@
     --font-heading: 'Noto Serif', serif;
     --font-body: 'Poppins', sans-serif;
     
-    --transition: all 0.3s ease;
+    --transition: none;
     --shadow: 0 4px 12px rgba(255, 107, 157, 0.2);
     --shadow-hover: 0 8px 24px rgba(255, 107, 157, 0.35);
 }
@@ -56,7 +56,7 @@ section, div, header, footer, main, article, aside, nav {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     font-size: 16px;
 }
 
@@ -3141,5 +3141,193 @@ body {
         justify-content: center;
         flex-wrap: wrap;
     }
+}
+
+/* ===================================
+   DESACTIVAR TODAS LAS ANIMACIONES Y MOVIMIENTOS
+   Hacer todo estático, especialmente en móvil
+   =================================== */
+
+/* Desactivar todas las animaciones y transiciones en móvil */
+@media screen and (max-width: 768px) {
+    /* Excluir hamburger de la regla general */
+    *:not(.hamburger):not(.hamburger *),
+    *:not(.hamburger)::before,
+    *:not(.hamburger)::after {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+        will-change: auto !important;
+    }
+    
+    /* EXCEPCIÓN: Mantener animación del hamburger */
+    .hamburger span {
+        transition: all 0.3s ease !important;
+    }
+    
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 8px) !important;
+    }
+    
+    .hamburger.active span:nth-child(2) {
+        opacity: 0 !important;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px) !important;
+    }
+    
+    /* Desactivar animaciones específicas */
+    .logo img,
+    .footer-logo,
+    .gallery-item,
+    .service-card,
+    .community-card,
+    .btn,
+    .whatsapp-float,
+    .scroll-to-top,
+    .hero-content,
+    .section-title,
+    .nav-link,
+    .card-icon i,
+    .info-item i,
+    .social-links a i {
+        animation: none !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    
+    /* Desactivar hover effects */
+    .gallery-item:hover,
+    .service-card:hover,
+    .community-card:hover,
+    .btn:hover,
+    .logo:hover img,
+    .footer-logo:hover {
+        transform: none !important;
+        animation: none !important;
+    }
+    
+    /* Desactivar efectos de scroll */
+    .fade-in,
+    .fade-in-left,
+    .fade-in-right,
+    .scale-in {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+    
+    /* Desactivar parallax y efectos de movimiento */
+    .section,
+    .hero,
+    .hero-slide,
+    .hero-content {
+        transform: none !important;
+        will-change: auto !important;
+    }
+    
+    /* Desactivar efectos de hover en imágenes */
+    .gallery-item img {
+        transform: none !important;
+        transition: none !important;
+    }
+    
+    .gallery-item:hover img {
+        transform: none !important;
+    }
+}
+
+/* Desactivar animaciones también en desktop pero mantener transiciones básicas mínimas */
+* {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+}
+
+/* Desactivar transformaciones en hover */
+.gallery-item:hover,
+.service-card:hover,
+.community-card:hover,
+.btn:hover,
+.logo:hover img,
+.footer-logo:hover {
+    transform: none !important;
+}
+
+/* EXCEPCIÓN: Mantener animación del hamburger en hover */
+.hamburger:hover span {
+    transition: all 0.3s ease !important;
+}
+
+/* Desactivar todas las animaciones de keyframes - sobrescribir con animaciones vacías */
+@keyframes logoFloat {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes logoPulse {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes logoGlow {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes logoSpin {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes fadeInUp {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes gradientShift {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes iconPulse {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes iconBounce {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes waveMove {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes morphShape {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes spin {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes float {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes heroContentZoom {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes gradientText {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes shadowPulse {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes blink-caret {
+    0%, 100% { transform: none; opacity: 1; }
+}
+@keyframes whatsappBounce {
+    0%, 100% { transform: none; opacity: 1; }
+}
+
+/* Asegurar que los elementos no se muevan */
+.gallery-item,
+.service-card,
+.community-card,
+.logo img,
+.footer-logo {
+    position: static !important;
+    transform: none !important;
+}
+
+/* Desactivar efectos de scroll reveal */
+.fade-in,
+.fade-in-left,
+.fade-in-right,
+.scale-in {
+    opacity: 1 !important;
+    transform: none !important;
 }
 
