@@ -125,7 +125,7 @@
       "email": "Email",
       "emailAddress": "info@prados.com",
       "hours": "Business hours",
-      "hoursText": "Monday - Thursday: 10:00 AM - 6:30 PM Friday - Saturday: 10:00 AM - 6:30 PM Sunday: 10:00 AM - 2:00 PM"
+      "hoursText": "Monday to Saturday: 10:00 AM - 6:30 PM<br>Sunday: 10:00 AM - 2:00 PM"
     }
   },
   "footer": {

@@ -125,7 +125,7 @@
       "email": "Correo",
       "emailAddress": "info@prados.com",
       "hours": "Horario de atención",
-      "hoursText": "Lunes - Jueves: 10:00 AM - 6:30 PM Viernes - Sábado: 10:00 AM - 6:30 PM Domingo: 10:00 AM - 2:00 PM"
+      "hoursText": "Lunes a Sábado: 10:00 AM - 6:30 PM<br>Domingo: 10:00 AM - 2:00 PM"
     }
   },
   "footer": {

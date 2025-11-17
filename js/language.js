@@ -53,10 +53,21 @@ function applyTranslations() {
         // Para elementos <li> con iconos, preservar el icono
         if (element.tagName === 'LI' && element.querySelector('i')) {
             const icon = element.querySelector('i');
-            element.textContent = translation;
-            element.prepend(icon);
+            // Usar innerHTML si contiene tags HTML, sino textContent
+            if (translation.includes('<br>') || translation.includes('<')) {
+                element.innerHTML = translation;
+                element.prepend(icon);
+            } else {
+                element.textContent = translation;
+                element.prepend(icon);
+            }
         } else {
-            element.textContent = translation;
+            // Usar innerHTML si contiene tags HTML, sino textContent
+            if (translation.includes('<br>') || translation.includes('<')) {
+                element.innerHTML = translation;
+            } else {
+                element.textContent = translation;
+            }
         }
     }
 }
