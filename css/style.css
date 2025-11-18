@@ -319,7 +319,7 @@ ul {
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0;
-    transition: none;
+    transition: opacity 1s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -328,22 +328,24 @@ ul {
 
 .hero-slide.active {
     opacity: 1;
-    transition: none;
 }
 
-/* Hero Background Images - Sin overlays ni gradientes */
+/* Hero Background Images */
 .hero-slide:nth-child(1) {
-    background-image: url('../images/Rosas y Girasoles.jpeg');
+    background-image: linear-gradient(rgba(255, 107, 157, 0.3), rgba(255, 160, 122, 0.3)), 
+                      url('../images/Rosas y Girasoles.jpeg');
     background-attachment: scroll;
 }
 
 .hero-slide:nth-child(2) {
-    background-image: url('../images/Fiesta colorida.jpeg');
+    background-image: linear-gradient(rgba(0, 206, 209, 0.3), rgba(127, 217, 87, 0.3)), 
+                      url('../images/Fiesta colorida.jpeg');
     background-attachment: scroll;
 }
 
 .hero-slide:nth-child(3) {
-    background-image: url('../images/Sillas y mesas.jpeg');
+    background-image: linear-gradient(rgba(255, 215, 0, 0.3), rgba(255, 160, 122, 0.3)), 
+                      url('../images/Sillas y mesas.jpeg');
     background-attachment: scroll;
 }
 
@@ -353,8 +355,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: transparent;
-    pointer-events: none;
+    background: linear-gradient(135deg, rgba(255, 107, 157, 0.2), rgba(255, 160, 122, 0.2));
 }
 
 .hero-content {
@@ -372,18 +373,20 @@ ul {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 1s ease;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 300;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 1s ease 0.2s backwards;
 }
 
 .hero .btn {
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 1s ease 0.4s backwards;
 }
 
 /* Slider Navigation Dots */
@@ -404,11 +407,13 @@ ul {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid var(--white);
     cursor: pointer;
-    transition: none;
+    transition: var(--transition);
 }
 
+.slider-dot:hover,
 .slider-dot.active {
     background-color: var(--white);
+    transform: scale(1.2);
 }
 
 /* ===== Buttons ===== */
@@ -1616,8 +1621,32 @@ body::before {
     transform: translateY(-3px);
 }
 
-/* ===== 4. EFECTO GLOW DESACTIVADO ===== */
-/* Animaciones de glow/neón eliminadas */
+/* ===== 4. EFECTO GLOW/NEÓN EN ELEMENTOS ===== */
+.hero-title {
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 107, 157, 0.3),
+        0 0 30px rgba(255, 107, 157, 0.2),
+        2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        text-shadow: 
+            0 0 10px rgba(255, 255, 255, 0.5),
+            0 0 20px rgba(255, 107, 157, 0.3),
+            0 0 30px rgba(255, 107, 157, 0.2),
+            2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        text-shadow: 
+            0 0 15px rgba(255, 255, 255, 0.7),
+            0 0 30px rgba(255, 107, 157, 0.5),
+            0 0 45px rgba(255, 107, 157, 0.3),
+            2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
 
 .section-title {
     position: relative;
@@ -1702,8 +1731,21 @@ body::before {
     50% { transform: translateX(-20px); }
 }
 
-/* ===== 8. EFECTO MORPHING DESACTIVADO ===== */
-/* Animación eliminada para evitar interferencias en el hero */
+/* ===== 8. EFECTO MORPHING EN SHAPES ===== */
+.hero-overlay {
+    animation: morphShape 20s ease-in-out infinite;
+}
+
+@keyframes morphShape {
+    0%, 100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        transform: rotate(0deg);
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        transform: rotate(180deg);
+    }
+}
 
 /* ===== 9. EFECTO BLUR EN SCROLL ===== */
 .section {
@@ -1788,8 +1830,21 @@ a, button, .gallery-item, .service-card {
 /* ===== 13. EFECTO HOVER DESACTIVADO EN NAV LINKS ===== */
 /* Efectos hover eliminados - solo color al seleccionar */
 
-/* ===== 14. EFECTO ZOOM DESACTIVADO EN HERO CONTENT ===== */
-/* Animación eliminada para evitar interferencias */
+/* ===== 14. EFECTO ZOOM SUAVE EN HERO CONTENT ===== */
+.hero-content {
+    animation: heroContentZoom 1.5s ease-out;
+}
+
+@keyframes heroContentZoom {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
 /* ===== 15. EFECTO ROTATE EN LOGO (ya está en estilos principales) ===== */
 
@@ -1971,8 +2026,23 @@ a, button, .gallery-item, .service-card {
     transform: scale(1.4) rotate(360deg);
 }
 
-/* ===== 28. EFECTO TEXT SHADOW DESACTIVADO ===== */
-/* Animación eliminada para evitar interferencias */
+/* ===== 28. EFECTO TEXT SHADOW ANIMADO ===== */
+.hero-title {
+    animation: textShadowMove 4s ease-in-out infinite;
+}
+
+@keyframes textShadowMove {
+    0%, 100% {
+        text-shadow: 
+            2px 2px 8px rgba(0, 0, 0, 0.3),
+            0 0 20px rgba(255, 107, 157, 0.3);
+    }
+    50% {
+        text-shadow: 
+            4px 4px 12px rgba(0, 0, 0, 0.4),
+            0 0 30px rgba(255, 107, 157, 0.5);
+    }
+}
 
 /* ===== 29. EFECTO HOVER EN INFO ITEMS ===== */
 .info-item {
