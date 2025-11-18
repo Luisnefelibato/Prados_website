@@ -233,21 +233,8 @@ ul {
     white-space: nowrap;
 }
 
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0.5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-color);
-    transition: var(--transition);
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    width: 80%;
+.nav-link.active {
+    color: var(--primary-color);
 }
 
 /* Language Selector */
@@ -1840,31 +1827,8 @@ a, button, .gallery-item, .service-card {
     }
 }
 
-/* ===== 13. EFECTO HOVER MÁS SOFISTICADO EN NAV LINKS ===== */
-.nav-link {
-    position: relative;
-    overflow: hidden;
-}
-
-.nav-link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 107, 157, 0.2), transparent);
-    transition: left 0.5s;
-}
-
-.nav-link:hover::before {
-    left: 100%;
-}
-
-.nav-link::after {
-    height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-}
+/* ===== 13. EFECTO HOVER DESACTIVADO EN NAV LINKS ===== */
+/* Efectos hover eliminados - solo color al seleccionar */
 
 /* ===== 14. EFECTO ZOOM SUAVE EN HERO CONTENT ===== */
 .hero-content {
