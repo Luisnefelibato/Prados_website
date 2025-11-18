@@ -688,111 +688,123 @@ ul {
     background-color: var(--bg-color);
 }
 
-/* ===== Product Images - Full Width & Height ===== */
+/* ===== Product Images - Mantener containers estándar, reducir imágenes ===== */
 .products-section .gallery-grid,
 .riman-section .gallery-grid {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
+/* Container igual que gallery-item estándar */
 .products-section .gallery-item,
 .riman-section .gallery-item {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    box-shadow: var(--shadow);
+    position: relative;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
     background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
 }
 
+/* Imagen más pequeña dentro del container */
 .products-section .gallery-item img,
 .riman-section .gallery-item img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 80%;
+    object-fit: contain;
     object-position: center;
     display: block;
-    background-color: var(--white);
-    padding: 0.5rem;
-    border-radius: 15px;
-    margin: 0 auto;
 }
 
-/* Desktop: Centrar y reducir tamaño */
+/* Desktop: Container estándar, imagen pequeña */
 @media screen and (min-width: 769px) {
     .products-section .gallery-grid,
     .riman-section .gallery-grid {
-        max-width: 400px;
+        grid-template-columns: 1fr;
+        max-width: 600px;
         margin: 0 auto;
+    }
+    
+    .products-section .gallery-item {
+        height: 400px;
+    }
+    
+    .riman-section .gallery-item {
+        height: 400px;
     }
     
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
-        max-width: 350px;
-        height: 350px;
-        object-fit: cover;
+        max-width: 70%;
+        max-height: 70%;
     }
 }
 
-/* Mobile: Full width */
+/* Mobile: Container igual que otras galerías, imagen pequeña */
 @media screen and (max-width: 768px) {
     .products-section .gallery-grid,
     .riman-section .gallery-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
         max-width: 100%;
-        width: 100%;
-        padding: 0;
     }
     
     .products-section .gallery-item,
     .riman-section .gallery-item {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
+        height: 250px;
     }
     
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
-        width: 100%;
-        max-width: 280px;
-        height: 250px;
-        object-fit: cover;
-        background-color: var(--white);
-        padding: 0.5rem;
-        border-radius: 15px;
-        margin: 0 auto;
+        max-width: 85%;
+        max-height: 85%;
     }
 }
 
-/* Específico para pantallas de 410px */
+/* Pantallas pequeñas: Reducir tamaño de imagen, NO del container */
 @media screen and (max-width: 410px) {
-    .products-section .gallery-item img,
-    .riman-section .gallery-item img {
+    .products-section .gallery-item,
+    .riman-section .gallery-item {
         height: 200px;
-        max-width: 250px;
+    }
+    
+    .products-section .gallery-item img,
+    .riman-section .gallery-item img {
+        max-width: 75%;
+        max-height: 75%;
     }
 }
 
-/* Específico para pantallas de 400px */
 @media screen and (max-width: 400px) {
+    .products-section .gallery-item,
+    .riman-section .gallery-item {
+        height: 180px;
+    }
+    
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
-        height: 180px;
-        max-width: 240px;
+        max-width: 70%;
+        max-height: 70%;
     }
 }
 
-/* Específico para pantallas de 390px */
 @media screen and (max-width: 390px) {
+    .products-section .gallery-item,
+    .riman-section .gallery-item {
+        height: 160px;
+    }
+    
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
-        height: 160px;
-        max-width: 220px;
+        max-width: 65%;
+        max-height: 65%;
     }
 }
 
