@@ -769,6 +769,33 @@ ul {
     }
 }
 
+/* Específico para pantallas de 410px */
+@media screen and (max-width: 410px) {
+    .products-section .gallery-item img,
+    .riman-section .gallery-item img {
+        height: 200px;
+        max-width: 250px;
+    }
+}
+
+/* Específico para pantallas de 400px */
+@media screen and (max-width: 400px) {
+    .products-section .gallery-item img,
+    .riman-section .gallery-item img {
+        height: 180px;
+        max-width: 240px;
+    }
+}
+
+/* Específico para pantallas de 390px */
+@media screen and (max-width: 390px) {
+    .products-section .gallery-item img,
+    .riman-section .gallery-item img {
+        height: 160px;
+        max-width: 220px;
+    }
+}
+
 /* ===== Section Backgrounds ===== */
 .flowers-section {
     background-color: var(--white);
