@@ -703,6 +703,10 @@ ul {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: var(--white);
 }
 
 .products-section .gallery-item img,
@@ -714,6 +718,9 @@ ul {
     object-fit: contain;
     object-position: center;
     display: block;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 15px;
 }
 
 /* Desktop: Centrar y mantener calidad */
@@ -755,6 +762,9 @@ ul {
         height: auto;
         min-height: 300px;
         object-fit: contain;
+        background-color: var(--white);
+        padding: 1rem;
+        border-radius: 15px;
     }
 }
 
