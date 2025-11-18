@@ -586,6 +586,8 @@ ul {
     box-shadow: var(--shadow);
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
+    height: auto;
+    min-height: auto;
 }
 
 .service-card:hover {
@@ -630,7 +632,14 @@ ul {
     }
     
     .service-card {
-        padding: 1.25rem;
+        padding: 1rem;
+        height: auto;
+        min-height: auto;
+    }
+    
+    .service-card li {
+        font-size: 0.95rem;
+        margin-bottom: 0.6rem;
     }
 }
 
@@ -781,6 +790,8 @@ ul {
     text-align: center;
     box-shadow: var(--shadow);
     transition: var(--transition);
+    height: auto;
+    min-height: auto;
 }
 
 .community-card:hover {
@@ -1213,6 +1224,21 @@ ul {
         gap: 2rem;
     }
     
+    .community-card {
+        padding: 2rem 1.5rem;
+        height: auto;
+        min-height: auto;
+    }
+    
+    .community-card h3 {
+        font-size: 1.5rem;
+    }
+    
+    .community-card p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
     /* Contact */
     .contact-wrapper {
         grid-template-columns: 1fr;
@@ -1256,6 +1282,10 @@ ul {
         font-size: 1.75rem;
     }
     
+    .section {
+        padding: 2.5rem 0;
+    }
+    
     .gallery-grid {
         grid-template-columns: 1fr;
         max-width: 100%;
@@ -1276,13 +1306,36 @@ ul {
     }
     
     .btn {
-        padding: 0.875rem 2rem;
-        font-size: 0.95rem;
+        padding: 0.875rem 1.5rem;
+        font-size: 0.9rem;
     }
     
     .btn-large {
-        padding: 1rem 2rem;
-        font-size: 1rem;
+        padding: 1rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    /* Servicios en móvil pequeño */
+    .service-card {
+        padding: 0.875rem;
+    }
+    
+    .service-card li {
+        font-size: 0.9rem;
+        gap: 0.5rem;
+    }
+    
+    /* Community cards en móvil pequeño */
+    .community-card {
+        padding: 1.25rem 0.875rem;
+    }
+    
+    .community-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .community-card p {
+        font-size: 0.85rem;
     }
     
     .whatsapp-float {
@@ -2123,6 +2176,26 @@ a, button, .gallery-item, .service-card {
     .btn {
         max-width: calc(100vw - 40px);
     }
+    
+    /* Ajustar contenido de texto en móvil */
+    .content-text {
+        padding: 0 0.5rem;
+    }
+    
+    .content-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    /* Ajustar wrapper de servicios */
+    .services-cards-wrapper {
+        margin-bottom: 1.5rem;
+    }
+    
+    .services-cards-wrapper h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
 }
 
 /* ===================================
@@ -2526,25 +2599,30 @@ a, button, .gallery-item, .service-card {
     }
     
     .community-card {
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1rem;
+        height: auto;
+        min-height: auto;
     }
     
     .card-icon {
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         margin-bottom: 1rem;
     }
     
     .card-icon i {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     
     .community-card h3 {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
     }
     
     .community-card p {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.6;
     }
     
     /* Contact Section */
