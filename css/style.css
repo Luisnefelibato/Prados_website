@@ -712,29 +712,30 @@ ul {
 .products-section .gallery-item img,
 .riman-section .gallery-item img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 400px;
-    object-fit: contain;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
     object-position: center;
     display: block;
     background-color: var(--white);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 15px;
+    margin: 0 auto;
 }
 
-/* Desktop: Centrar y mantener calidad */
+/* Desktop: Centrar y reducir tamaño */
 @media screen and (min-width: 769px) {
     .products-section .gallery-grid,
     .riman-section .gallery-grid {
-        max-width: 800px;
+        max-width: 400px;
         margin: 0 auto;
     }
     
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
-        min-height: 500px;
-        object-fit: contain;
+        max-width: 350px;
+        height: 350px;
+        object-fit: cover;
     }
 }
 
@@ -758,13 +759,13 @@ ul {
     .products-section .gallery-item img,
     .riman-section .gallery-item img {
         width: 100%;
-        max-width: 100%;
-        height: auto;
-        min-height: 300px;
-        object-fit: contain;
+        max-width: 280px;
+        height: 250px;
+        object-fit: cover;
         background-color: var(--white);
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 15px;
+        margin: 0 auto;
     }
 }
 
@@ -1253,6 +1254,23 @@ ul {
     .contact-wrapper {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+    
+    .contact-info {
+        text-align: left;
+    }
+    
+    .contact-info h3 {
+        text-align: left;
+    }
+    
+    .info-item {
+        text-align: left;
+        align-items: flex-start;
+    }
+    
+    .info-item div {
+        text-align: left;
     }
     
     .map-container iframe {
@@ -2644,24 +2662,35 @@ a, button, .gallery-item, .service-card {
     
     .contact-info {
         padding: 1.5rem;
+        text-align: left;
     }
     
     .contact-info h3 {
         font-size: 1.4rem;
+        text-align: left;
     }
     
     .info-item {
         margin-bottom: 1.25rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
     }
     
     .info-item i {
         font-size: 1.1rem;
         width: 35px;
+        flex-shrink: 0;
+    }
+    
+    .info-item div {
+        text-align: left;
     }
     
     .info-item p,
     .info-item a {
         font-size: 0.95rem;
+        text-align: left;
     }
     
     .map-container {
