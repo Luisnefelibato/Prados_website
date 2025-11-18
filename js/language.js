@@ -72,6 +72,60 @@ function applyTranslations() {
     }
 }
     });
+    
+    // Actualizar enlaces de WhatsApp después de aplicar traducciones
+    updateWhatsAppLinks();
+}
+
+// Actualizar enlaces de WhatsApp con mensajes personalizados según idioma
+function updateWhatsAppLinks() {
+    const phone = '13238028920';
+    
+    const messages = {
+        es: {
+            flowers: 'Hola, me gustaría saber más sobre sus arreglos florales y ver el catálogo disponible.',
+            party: 'Hola, me interesa conocer más sobre sus suministros para fiestas y arreglos con globos.',
+            rental: 'Hola, quisiera solicitar una cotización para renta de mesas y sillas.',
+            money: 'Hola, necesito información sobre el servicio de envío de dinero.',
+            shipping: 'Hola, me gustaría saber más sobre su servicio de paquetería.'
+        },
+        en: {
+            flowers: 'Hello, I would like to know more about your floral arrangements and see the available catalog.',
+            party: 'Hello, I am interested in learning more about your party supplies and balloon arrangements.',
+            rental: 'Hello, I would like to request a quote for table and chair rentals.',
+            money: 'Hello, I need information about the money transfer service.',
+            shipping: 'Hello, I would like to know more about your package shipping service.'
+        }
+    };
+    
+    const lang = currentLanguage;
+    
+    // Actualizar botón de flores
+    const flowersBtn = document.querySelector('#flowers .btn-secondary');
+    if (flowersBtn) {
+        flowersBtn.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(messages[lang].flowers)}`;
+    }
+    
+    // Actualizar botón de party supplies
+    const partyBtn = document.querySelector('#party .btn-secondary');
+    if (partyBtn) {
+        partyBtn.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(messages[lang].party)}`;
+    }
+    
+    // Actualizar botón de renta
+    const rentalBtn = document.querySelector('#rental .btn-secondary');
+    if (rentalBtn) {
+        rentalBtn.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(messages[lang].rental)}`;
+    }
+    
+    // Actualizar botones de servicios comunitarios
+    const moneyBtns = document.querySelectorAll('#community .btn-outline');
+    if (moneyBtns[0]) {
+        moneyBtns[0].href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(messages[lang].money)}`;
+    }
+    if (moneyBtns[1]) {
+        moneyBtns[1].href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(messages[lang].shipping)}`;
+    }
 }
 
 // Función dedicada a proteger los logos
