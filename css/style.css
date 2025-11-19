@@ -231,6 +231,7 @@ ul {
     position: relative;
     padding: 0.75rem 1rem;
     white-space: nowrap;
+    transition: none;
 }
 
 .nav-link.active {
