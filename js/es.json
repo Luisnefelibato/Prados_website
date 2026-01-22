@@ -6,6 +6,7 @@
     "rental": "Renta de Mesas y Sillas",
     "community": "Servicios Comunitarios",
     "products": "Productos",
+    "blog": "Blog",
     "contact": "Ubicación"
   },
   "hero": {
@@ -134,6 +135,150 @@
     "privacy": "Política de privacidad",
     "terms": "Términos y condiciones",
     "credits": "© Luisfercpde 2025. Todos los derechos reservados."
+  },
+  "blog": {
+    "hero": {
+      "title": "Nuestro Blog",
+      "subtitle": "Ideas, consejos y tendencias para tus celebraciones"
+    },
+    "intro": {
+      "title": "Arreglos Florales y Decoración para Toda Ocasión en Prados Fresh and Flowers",
+      "p1": "Prados Fresh and Flowers es tu destino ideal en California para encontrar arreglos florales frescos y personalizados que realzan cualquier celebración o momento especial. Con flores de alta calidad, para bodas, aniversarios, graduaciones, cumpleaños y eventos corporativos, cada arreglo floral combina belleza natural, creatividad y elegancia.",
+      "p2": "Además de nuestros lindos ramos y centros de mesa, Prados Fresh and Flowers te ofrece una experiencia completa para tu evento al tener una amplia selección de party supplies y decoración temática. Desde piñatas, globos, accesorios de fiesta hasta vajilla desechable para cualquier celebración, puedes encontrar todo lo necesario en un solo lugar.",
+      "p3": "Ya sea que estés planificando una boda romántica, una fiesta de cumpleaños o un evento empresarial, Prados Fresh and Flowers combina flores frescas, diseño creativo y artículos de fiesta para crear ambientes memorables. Visítanos y descubre cómo con nuestra ayuda transformamos tus ideas en una realidad.",
+      "title2": "Todo lo que Necesitas para tu Fiesta Perfecta con Prados Fresh and Flowers",
+      "p4": "Prados Fresh and Flowers en California no solo es una florería: es tu aliado para eventos completos, ya que encontrarás flores frescas, decoración y servicios de renta de mobiliario para que tu celebración sea perfecta. Nuestro catálogo incluye arreglos florales para bodas, aniversarios, eventos corporativos y momentos especiales, con opciones personalizadas para cada gusto y estilo.",
+      "p5": "En Prados Fresh and Flowers contamos con un variado inventario de party supplies que incluye piñatas, globos con helio, decoración temática, manteles, servilletas y más, pensados para cubrir todos los detalles de tus fiestas ya que nos enfocamos también en los pequeños detalles y que todo sea perfecto.",
+      "p6": "Si lo que buscas es comodidad y estilo, también puedes aprovechar nuestro servicio de renta de mesas y sillas, ideal para bodas, reuniones familiares o eventos al aire libre. En Prados Fresh and Flowers nos importa el cliente así que nos ofrecemos calidad, creatividad y atención personalizada, para hacer que tu evento sea único."
+    },
+    "articles": {
+      "title": "Artículos Destacados",
+      "subtitle": "Lee nuestras últimas publicaciones"
+    },
+    "article1": {
+      "title": "Ramos de Rosas Rojas: El Regalo Ideal para Momentos Especiales",
+      "excerpt": "Los ramos de rosas rojas son uno de los regalos más elegidos cuando se trata de expresar amor, admiración y elegancia. En Prados Fresh & Flowers, creamos arreglos florales únicos..."
+    },
+    "article2": {
+      "title": "Una Tienda Pensada para Celebrar: Flores y Artículos para Fiestas",
+      "excerpt": "Celebrar es crear recuerdos, y en Prados Fresh & Flowers hacemos que cada evento sea especial desde el primer detalle. Nuestra tienda está diseñada para ofrecer soluciones completas..."
+    },
+    "readmore": "Leer más",
+    "related": {
+      "title": "Artículos Relacionados"
+    }
+  },
+  "article1": {
+    "title": "Ramos de Rosas Rojas: El Regalo Ideal para Momentos Especiales",
+    "intro": "Los ramos de rosas rojas son uno de los regalos más elegidos cuando se trata de expresar amor, admiración y elegancia. En Prados Fresh & Flowers, creamos arreglos florales únicos que destacan por su frescura, calidad y presentación impecable.",
+    "section1": {
+      "title": "Rosas rojas que transmiten emociones",
+      "content": "Cada ramo es elaborado con rosas frescas cuidadosamente seleccionadas, combinadas con detalles decorativos que realzan su belleza. Son perfectos para aniversarios, cumpleaños, San Valentín o cualquier ocasión especial en la que quieras sorprender."
+    },
+    "section2": {
+      "title": "Arreglos florales con estilo y calidad",
+      "content": "Nuestros diseños se adaptan a distintos gustos y estilos, desde opciones clásicas hasta arreglos modernos y sofisticados. En Prados Fresh & Flowers, cada detalle cuenta para que tu regalo sea inolvidable."
+    },
+    "section3": {
+      "title": "Arreglos Florales para Celebrar el Amor, la Amistad y la Vida",
+      "content": "Un arreglo floral tiene el poder de alegrar cualquier espacio y transmitir sentimientos genuinos. En Prados Fresh & Flowers, diseñamos arreglos florales ideales para celebrar momentos importantes con quienes más amas."
+    },
+    "section4": {
+      "title": "Diseños florales para cada ocasión",
+      "content": "Nuestros arreglos incluyen combinaciones de rosas, girasoles, lirios y flores naturales, acompañados de detalles especiales como globos, peluches y tarjetas personalizadas."
+    },
+    "section5": {
+      "title": "Regalos que crean recuerdos",
+      "content": "Ya sea para un cumpleaños, una celebración romántica o una sorpresa inesperada, nuestros arreglos florales están pensados para regalar sonrisas y crear recuerdos duraderos."
+    },
+    "section6": {
+      "title": "Prados Fresh & Flowers: Tu Floristería y Tienda de Artículos para Fiestas en Inglewood",
+      "content": "En Prados Fresh & Flowers ofrecemos una experiencia completa para tus celebraciones. No solo encontrarás flores frescas y arreglos personalizados, sino también una amplia variedad de artículos para fiestas y decoración."
+    },
+    "section7": {
+      "title": "Todo lo que necesitas en un solo lugar",
+      "content": "Contamos con arreglos florales, globos temáticos, regalos especiales y decoración para eventos sociales y familiares. Nuestro objetivo es ayudarte a celebrar sin preocupaciones."
+    },
+    "section8": {
+      "title": "Atención personalizada y calidad garantizada",
+      "content": "Nos caracterizamos por brindar atención cercana, productos de alta calidad y diseños que se adaptan a tus necesidades y presupuesto."
+    },
+    "section9": {
+      "title": "Arreglos Florales que Transforman Cualquier Celebración",
+      "content": "Las flores tienen la capacidad de cambiar el ambiente y elevar cualquier momento. En Prados Fresh & Flowers, cada arreglo floral nace con la intención de transmitir alegría, color y emociones auténticas."
+    },
+    "section10": {
+      "title": "Creatividad floral en cada diseño",
+      "content": "Nuestros arreglos combinan flores naturales, texturas y colores que se adaptan a distintas celebraciones: cumpleaños, agradecimientos, celebraciones familiares o detalles corporativos. Cada diseño es único y se prepara con dedicación artesanal."
+    },
+    "section11": {
+      "title": "Flores que hablan por ti",
+      "content": "Cuando las palabras no son suficientes, un arreglo floral se convierte en el mejor mensaje. Nuestros clientes confían en nosotros para sorprender, expresar cariño y dejar una impresión duradera en cada entrega."
+    },
+    "contact": {
+      "title": "¿Listo para sorprender con un hermoso ramo de rosas?",
+      "content": "Visítanos en 744 E Hyde Park Blvd, Inglewood, CA o realiza tu pedido en línea.",
+      "button1": "Ordenar Ahora",
+      "button2": "Ver Catálogo"
+    }
+  },
+  "article2": {
+    "title": "Una Tienda Pensada para Celebrar: Flores y Artículos para Fiestas",
+    "intro": "Celebrar es crear recuerdos, y en Prados Fresh & Flowers hacemos que cada evento sea especial desde el primer detalle. Nuestra tienda está diseñada para ofrecer soluciones completas para celebraciones de todo tipo.",
+    "section1": {
+      "title": "Más que una floristería",
+      "content": "Además de arreglos florales, contamos con artículos para fiestas, globos decorativos, regalos y accesorios que complementan cualquier evento, desde reuniones íntimas hasta celebraciones más grandes."
+    },
+    "section2": {
+      "title": "Tu aliado para eventos y fechas especiales",
+      "content": "Nuestro equipo te asesora para que encuentres exactamente lo que necesitas, ahorrando tiempo y garantizando resultados que sorprenden. Todo en un solo lugar, con calidad y atención personalizada."
+    },
+    "section3": {
+      "title": "Arreglos Florales que Transforman Cualquier Celebración",
+      "content": "Las flores tienen la capacidad de cambiar el ambiente y elevar cualquier momento. En Prados Fresh & Flowers, cada arreglo floral nace con la intención de transmitir alegría, color y emociones auténticas."
+    },
+    "section4": {
+      "title": "Creatividad floral en cada diseño",
+      "content": "Nuestros arreglos combinan flores naturales, texturas y colores que se adaptan a distintas celebraciones: cumpleaños, agradecimientos, celebraciones familiares o detalles corporativos. Cada diseño es único y se prepara con dedicación artesanal."
+    },
+    "section5": {
+      "title": "Flores que hablan por ti",
+      "content": "Cuando las palabras no son suficientes, un arreglo floral se convierte en el mejor mensaje. Nuestros clientes confían en nosotros para sorprender, expresar cariño y dejar una impresión duradera en cada entrega."
+    },
+    "section6": {
+      "title": "Party Supplies: Todo lo que Necesitas para tu Fiesta",
+      "content": "Desde piñatas coloridas hasta arreglos con globos personalizados, en Prados Fresh & Flowers encontrarás todo lo necesario para hacer de tu celebración algo único e inolvidable."
+    },
+    "section7": {
+      "title": "Arreglos con Globos que Sorprenden",
+      "content": "Nuestros arreglos con globos son perfectos para cualquier ocasión. Desde cumpleaños infantiles hasta eventos corporativos, creamos diseños personalizados que se adaptan a tu estilo y presupuesto."
+    },
+    "section8": {
+      "title": "Piñatas y Accesorios de Fiesta",
+      "content": "Tenemos una gran variedad de piñatas de personajes populares, temas clásicos y diseños personalizados. Además, contamos con vajilla desechable, manteles, servilletas y todos los accesorios que necesitas para tu fiesta."
+    },
+    "section9": {
+      "title": "Renta de Mesas y Sillas para Eventos Completos",
+      "content": "Completa tu evento con nuestro servicio de renta de mesas y sillas. Ofrecemos mobiliario de calidad, limpio y en excelente estado para bodas, reuniones familiares, fiestas infantiles y eventos corporativos."
+    },
+    "section10": {
+      "title": "Servicio Completo de Montaje",
+      "content": "No solo rentamos el mobiliario, también ofrecemos servicio de entrega, montaje y recolección. Nos encargamos de todos los detalles para que tú solo te preocupes por disfrutar tu celebración."
+    },
+    "section11": {
+      "title": "Eventos Especiales que Recordarás Siempre",
+      "content": "En Prados Fresh & Flowers entendemos que cada celebración es única. Por eso, nos dedicamos a crear experiencias personalizadas que reflejan tu estilo y personalidad."
+    },
+    "section12": {
+      "title": "Asesoría Personalizada",
+      "content": "Nuestro equipo está listo para ayudarte a planificar cada detalle de tu evento. Desde la selección de flores hasta la decoración completa, trabajamos contigo para hacer realidad tu visión."
+    },
+    "contact": {
+      "title": "¿Listo para planificar tu próxima celebración?",
+      "content": "Visítanos en 744 E Hyde Park Blvd, Inglewood, CA o contáctanos para más información.",
+      "button1": "Contáctanos",
+      "button2": "Ver Party Supplies"
+    }
   }
 
 }

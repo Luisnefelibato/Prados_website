@@ -6,6 +6,7 @@
     "rental": "Table & Chair Rental",
     "community": "Community Services",
     "products": "Products",
+    "blog": "Blog",
     "contact": "Location"
   },
   "hero": {
@@ -134,5 +135,149 @@
     "privacy": "Privacy policy",
     "terms": "Terms and conditions",
     "credits": "© Luisfercpde 2025. All rights reserved."
+  },
+  "blog": {
+    "hero": {
+      "title": "Our Blog",
+      "subtitle": "Ideas, tips and trends for your celebrations"
+    },
+    "intro": {
+      "title": "Floral Arrangements and Decoration for Every Occasion at Prados Fresh and Flowers",
+      "p1": "Prados Fresh and Flowers is your ideal destination in California to find fresh and personalized floral arrangements that enhance any celebration or special moment. With high-quality flowers for weddings, anniversaries, graduations, birthdays and corporate events, each floral arrangement combines natural beauty, creativity and elegance.",
+      "p2": "In addition to our beautiful bouquets and centerpieces, Prados Fresh and Flowers offers you a complete experience for your event with a wide selection of party supplies and themed decoration. From piñatas, balloons, party accessories to disposable tableware for any celebration, you can find everything you need in one place.",
+      "p3": "Whether you're planning a romantic wedding, a birthday party or a corporate event, Prados Fresh and Flowers combines fresh flowers, creative design and party supplies to create memorable environments. Visit us and discover how with our help we transform your ideas into reality.",
+      "title2": "Everything You Need for Your Perfect Party with Prados Fresh and Flowers",
+      "p4": "Prados Fresh and Flowers in California is not just a flower shop: it's your partner for complete events, where you'll find fresh flowers, decoration and furniture rental services to make your celebration perfect. Our catalog includes floral arrangements for weddings, anniversaries, corporate events and special moments, with personalized options for every taste and style.",
+      "p5": "At Prados Fresh and Flowers we have a varied inventory of party supplies that includes piñatas, helium balloons, themed decoration, tablecloths, napkins and more, designed to cover all the details of your parties as we also focus on the small details and making everything perfect.",
+      "p6": "If you're looking for comfort and style, you can also take advantage of our table and chair rental service, ideal for weddings, family gatherings or outdoor events. At Prados Fresh and Flowers we care about the customer so we offer quality, creativity and personalized attention to make your event unique."
+    },
+    "articles": {
+      "title": "Featured Articles",
+      "subtitle": "Read our latest posts"
+    },
+    "article1": {
+      "title": "Red Rose Bouquets: The Ideal Gift for Special Moments",
+      "excerpt": "Red rose bouquets are one of the most chosen gifts when it comes to expressing love, admiration and elegance. At Prados Fresh & Flowers, we create unique floral arrangements..."
+    },
+    "article2": {
+      "title": "A Store Designed to Celebrate: Flowers and Party Supplies",
+      "excerpt": "Celebrating is creating memories, and at Prados Fresh & Flowers we make every event special from the first detail. Our store is designed to offer complete solutions..."
+    },
+    "readmore": "Read more",
+    "related": {
+      "title": "Related Articles"
+    }
+  },
+  "article1": {
+    "title": "Red Rose Bouquets: The Ideal Gift for Special Moments",
+    "intro": "Red rose bouquets are one of the most chosen gifts when it comes to expressing love, admiration and elegance. At Prados Fresh & Flowers, we create unique floral arrangements that stand out for their freshness, quality and impeccable presentation.",
+    "section1": {
+      "title": "Red roses that convey emotions",
+      "content": "Each bouquet is made with carefully selected fresh roses, combined with decorative details that enhance their beauty. They are perfect for anniversaries, birthdays, Valentine's Day or any special occasion where you want to surprise."
+    },
+    "section2": {
+      "title": "Floral arrangements with style and quality",
+      "content": "Our designs adapt to different tastes and styles, from classic options to modern and sophisticated arrangements. At Prados Fresh & Flowers, every detail counts to make your gift unforgettable."
+    },
+    "section3": {
+      "title": "Floral Arrangements to Celebrate Love, Friendship and Life",
+      "content": "A floral arrangement has the power to brighten any space and convey genuine feelings. At Prados Fresh & Flowers, we design ideal floral arrangements to celebrate important moments with those you love most."
+    },
+    "section4": {
+      "title": "Floral designs for every occasion",
+      "content": "Our arrangements include combinations of roses, sunflowers, lilies and natural flowers, accompanied by special details such as balloons, stuffed animals and personalized cards."
+    },
+    "section5": {
+      "title": "Gifts that create memories",
+      "content": "Whether for a birthday, a romantic celebration or an unexpected surprise, our floral arrangements are designed to bring smiles and create lasting memories."
+    },
+    "section6": {
+      "title": "Prados Fresh & Flowers: Your Flower Shop and Party Supply Store in Inglewood",
+      "content": "At Prados Fresh & Flowers we offer a complete experience for your celebrations. You'll not only find fresh flowers and personalized arrangements, but also a wide variety of party supplies and decoration."
+    },
+    "section7": {
+      "title": "Everything you need in one place",
+      "content": "We have floral arrangements, themed balloons, special gifts and decoration for social and family events. Our goal is to help you celebrate without worries."
+    },
+    "section8": {
+      "title": "Personalized attention and guaranteed quality",
+      "content": "We are characterized by providing close attention, high-quality products and designs that adapt to your needs and budget."
+    },
+    "section9": {
+      "title": "Floral Arrangements that Transform Any Celebration",
+      "content": "Flowers have the ability to change the atmosphere and elevate any moment. At Prados Fresh & Flowers, each floral arrangement is born with the intention of conveying joy, color and authentic emotions."
+    },
+    "section10": {
+      "title": "Floral creativity in every design",
+      "content": "Our arrangements combine natural flowers, textures and colors that adapt to different celebrations: birthdays, thank-yous, family celebrations or corporate details. Each design is unique and prepared with artisan dedication."
+    },
+    "section11": {
+      "title": "Flowers that speak for you",
+      "content": "When words are not enough, a floral arrangement becomes the best message. Our customers trust us to surprise, express affection and leave a lasting impression with each delivery."
+    },
+    "contact": {
+      "title": "Ready to surprise with a beautiful bouquet of roses?",
+      "content": "Visit us at 744 E Hyde Park Blvd, Inglewood, CA or place your order online.",
+      "button1": "Order Now",
+      "button2": "View Catalog"
+    }
+  },
+  "article2": {
+    "title": "A Store Designed to Celebrate: Flowers and Party Supplies",
+    "intro": "Celebrating is creating memories, and at Prados Fresh & Flowers we make every event special from the first detail. Our store is designed to offer complete solutions for all types of celebrations.",
+    "section1": {
+      "title": "More than a flower shop",
+      "content": "In addition to floral arrangements, we have party supplies, decorative balloons, gifts and accessories that complement any event, from intimate gatherings to larger celebrations."
+    },
+    "section2": {
+      "title": "Your partner for events and special dates",
+      "content": "Our team advises you to find exactly what you need, saving time and guaranteeing surprising results. Everything in one place, with quality and personalized attention."
+    },
+    "section3": {
+      "title": "Floral Arrangements that Transform Any Celebration",
+      "content": "Flowers have the ability to change the atmosphere and elevate any moment. At Prados Fresh & Flowers, each floral arrangement is born with the intention of conveying joy, color and authentic emotions."
+    },
+    "section4": {
+      "title": "Floral creativity in every design",
+      "content": "Our arrangements combine natural flowers, textures and colors that adapt to different celebrations: birthdays, thank-yous, family celebrations or corporate details. Each design is unique and prepared with artisan dedication."
+    },
+    "section5": {
+      "title": "Flowers that speak for you",
+      "content": "When words are not enough, a floral arrangement becomes the best message. Our customers trust us to surprise, express affection and leave a lasting impression with each delivery."
+    },
+    "section6": {
+      "title": "Party Supplies: Everything You Need for Your Party",
+      "content": "From colorful piñatas to personalized balloon arrangements, at Prados Fresh & Flowers you'll find everything you need to make your celebration unique and unforgettable."
+    },
+    "section7": {
+      "title": "Balloon Arrangements that Surprise",
+      "content": "Our balloon arrangements are perfect for any occasion. From children's birthdays to corporate events, we create personalized designs that adapt to your style and budget."
+    },
+    "section8": {
+      "title": "Piñatas and Party Accessories",
+      "content": "We have a wide variety of piñatas of popular characters, classic themes and personalized designs. We also have disposable tableware, tablecloths, napkins and all the accessories you need for your party."
+    },
+    "section9": {
+      "title": "Table and Chair Rental for Complete Events",
+      "content": "Complete your event with our table and chair rental service. We offer quality furniture, clean and in excellent condition for weddings, family gatherings, children's parties and corporate events."
+    },
+    "section10": {
+      "title": "Complete Setup Service",
+      "content": "We don't just rent the furniture, we also offer delivery, setup and pickup service. We take care of all the details so you only worry about enjoying your celebration."
+    },
+    "section11": {
+      "title": "Special Events You'll Always Remember",
+      "content": "At Prados Fresh & Flowers we understand that each celebration is unique. That's why we dedicate ourselves to creating personalized experiences that reflect your style and personality."
+    },
+    "section12": {
+      "title": "Personalized Advice",
+      "content": "Our team is ready to help you plan every detail of your event. From flower selection to complete decoration, we work with you to make your vision a reality."
+    },
+    "contact": {
+      "title": "Ready to plan your next celebration?",
+      "content": "Visit us at 744 E Hyde Park Blvd, Inglewood, CA or contact us for more information.",
+      "button1": "Contact Us",
+      "button2": "View Party Supplies"
+    }
   }
 }
